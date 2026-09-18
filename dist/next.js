@@ -1,6 +1,6 @@
 (()=>{
 "use strict";
-const BASE="eosdo-lite-review-v2", NEXT="eosdo-next-v1";
+const BASE="eosdo-next-base-v1", NEXT="eosdo-next-v1";
 const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const base=()=>{try{return JSON.parse(localStorage.getItem(BASE))||{docs:[],orders:[]}}catch{return{docs:[],orders:[]}}};
 const saveBase=s=>{localStorage.setItem(BASE,JSON.stringify(s));window.dispatchEvent(new Event("eosdo-next-change"))};
