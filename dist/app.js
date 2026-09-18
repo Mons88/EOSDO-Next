@@ -1,7 +1,7 @@
 (()=>{
 "use strict";
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const KEY="eosdo-lite-review-v2";
+const KEY="eosdo-next-base-v1";
 const seed=[
 {id:"t01",number:"ПР-2026-TEST-001",title:"Приказ о назначении ответственных",type:"Распорядительный документ",status:"Зарегистрирован",owner:"Алексей",urgency:"Обычная",access:"Общий",links:["t05"],history:["Создан проект","Согласовано","Подписано УКЭП","Зарегистрировано"]},
 {id:"t02",number:"ДГ-2026-TEST-002",title:"Договор поставки оборудования",type:"Договор",status:"Зарегистрирован",owner:"Алексей",urgency:"Срочно",access:"Общий",contractSigned:true,archive:{stored:true,at:"18.09.2026",folder:"01-01"},links:["t06"],history:["Создан договор","Согласовано","Подписано","Контрагент подписал","Оригинал передан в архив","Зарегистрировано"]},
