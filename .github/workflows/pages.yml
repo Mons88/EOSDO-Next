@@ -26,6 +26,7 @@ jobs:
       - name: JavaScript syntax check
         run: |
           node --check dist/app.js
+          node --check dist/manual-compliance.js
           node --check dist/next.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
